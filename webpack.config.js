@@ -37,6 +37,7 @@ module.exports = {
       amd: 'aws-sdk/clients/cognitoidentityserviceprovider'
     },
     // Exclude 3rd-party code from the bundle.
+    // https://github.com/awslabs/aws-cognito-angular2-quickstart/issues/15
     sjcl: false,
     jsbn: {
       root: [], // non-npm jsbn exports to global
