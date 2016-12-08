@@ -37,7 +37,7 @@ module.exports = {
       amd: 'aws-sdk/clients/cognitoidentityserviceprovider'
     },
     // Exclude 3rd-party code from the bundle.
-    sjcl: true,
+    sjcl: false,
     jsbn: {
       root: [], // non-npm jsbn exports to global
       commonjs2: 'jsbn',
